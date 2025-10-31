@@ -24,6 +24,31 @@
         "requiresAuthentication": false,
         "cacheStrategy": "no-cache"
       }
+    },
+    {
+      "version": "1.0.0",
+      "title": "Rainbow Wave",
+      "type": "rainbow_wave",
+      "description": "A mesmerizing rainbow-colored wave animation that flows across the screen",
+      "category": "animations",
+      "containers": [
+        "Full width"
+      ],
+      "imageName": "rainbow_wave",
+      "widgetsLibrary": true,
+      "settings": {
+        "configurable": true,
+        "editable": true,
+        "removable": true,
+        "shared": false,
+        "movable": false
+      },
+      "content": {
+        "endpoint": "https://raw.githubusercontent.com/SchoolKeep/widgets-repository-demo/refs/heads/main/widgets/rainbow_wave/content.html",
+        "method": "GET",
+        "requiresAuthentication": false,
+        "cacheStrategy": "no-cache"
+      }
     }
   ]
 }
